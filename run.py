@@ -1,5 +1,5 @@
 from app import create_app
-from app.commands import try_load_initial_data
+from app.utils import try_load_initial_data
 
 app = create_app()
 
