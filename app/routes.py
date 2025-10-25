@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from app import db
+from app.init import db
 from app.models import News
 
 news_bp = Blueprint('news', __name__, url_prefix='/api')

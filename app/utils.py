@@ -1,6 +1,6 @@
 import json
 from datetime import datetime
-from app import db
+from app.init import db
 from app.models import News
 
 

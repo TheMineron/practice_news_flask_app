@@ -1,4 +1,4 @@
-from app import create_app
+from app.init import create_app
 from app.utils import try_load_initial_data
 
 app = create_app()
